@@ -32,6 +32,8 @@
 
 %% Layout for RMarkdown
 
+\usepackage{booktabs}
+
 % Added by CII to produce nice looking code in BeginVerbatimEnvironment
 \RequirePackage{fancyvrb}
 
