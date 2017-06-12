@@ -163,10 +163,12 @@
         keywordstyle=\color{blue},
         commentstyle=\color[rgb]{0.13,0.55,0.13}\em,
         stringstyle=\color[rgb]{0.7,0,0} }
+\PassOptionsToPackage{hyphens}{url}
 \usepackage[pdfpagemode={UseOutlines},bookmarks=true,bookmarksopen=true,
    bookmarksopenlevel=0,bookmarksnumbered=true,hypertexnames=false,
    linkcolor={black},citecolor={black},urlcolor={black},
    pdfstartview={FitV},unicode,breaklinks=true]{hyperref}
+\usepackage{url}
 \pdfstringdefDisableCommands{
    \let\\\space
 }
