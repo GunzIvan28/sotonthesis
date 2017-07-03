@@ -1,5 +1,7 @@
 # thesisdown
 
+> This respository is based on the thesisdown package with minor alterations made to change the template to meet guidelines from the University of Southampton
+
 This project was inspired by the [bookdown](http://github.com/rstudio/bookdown) package and is an updated version of my Senior Thesis template in the `reedtemplates` package [here](http://github.com/ismayc/reedtemplates).
 
 Currently, the PDF and gitbook versions are fully-functional.  The word and epub versions are developmental, have no templates behind them, and are essentially calls to the appropriate functions in bookdown.
