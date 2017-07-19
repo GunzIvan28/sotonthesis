@@ -30,13 +30,30 @@
   \space \number\year}
 
 
+% Package Options to define placeholder for content to be added
+\newenvironment{ContentBox}
+    {\begin{center}
+    \begin{tabular}{|p{0.9\textwidth}|}
+    \hline\\
+    }
+    { 
+    \\\\\hline
+    \end{tabular} 
+    \end{center}
+    }
+    
+    
+\usepackage[normalem]{ulem} % Used for adding strikethrough to text
+
+\usepackage{breakcites} % Used to enforce text wrapping within Bibliography
+
 %% Layout for RMarkdown
 
 \usepackage{booktabs}
+\usepackage{lscape} % Required for formatting tables in Landscape
 
 % Added by CII to produce nice looking code in BeginVerbatimEnvironment
 \RequirePackage{fancyvrb}
-
 
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
@@ -169,6 +186,7 @@
    linkcolor={black},citecolor={black},urlcolor={black},
    pdfstartview={FitV},unicode,breaklinks=true]{hyperref}
 \usepackage{url}
+\Urlmuskip=0mu plus 1mu % Break entries in the bibliography
 \pdfstringdefDisableCommands{
    \let\\\space
 }
@@ -261,7 +279,7 @@
   \cleardoublepage
 }
 \addtocounter{secnumdepth}{1}
-\setcounter{tocdepth}{6}
+\setcounter{tocdepth}{1}
 \newcounter{dummy}
 \newcommand\addtotoc[1]{
 \refstepcounter{dummy}
@@ -427,7 +445,3 @@ Date:
   \btypeout{\bibname}
   \@mainmatterfalse}
 \endinput
-
-
-
-
