@@ -23,7 +23,6 @@
 %\usepackage{biblatex-chicago}
 %\bibliography{thesis}
 
-
 % Added by CII (Thanks, Hadley!)
 % Use ref for internal links
 \renewcommand{\hyperref}[2][???]{\autoref{#1}}
@@ -33,15 +32,19 @@
 % End of CII addition
 
 % Added by CII
-\usepackage{caption}
+\usepackage[labelfont={bf}]{caption} % Makes bold figure title
 \captionsetup{width=5in}
+
 % End of CII addition
-
-
 
 \hypersetup{colorlinks=true}   % Set to false for black/white printing
 \graphicspath{{.}}    % Location of your graphics files
 
+$if(tocdepth)$
+\setcounter{tocdepth}{$tocdepth$}
+$endif$
+
+\newcommand\ddfrac[2]{\frac{\displaystyle #1}{\displaystyle #2}} %make double height eqauation
 
 %% ----------------------------------------------------------------
 \begin{document}
@@ -80,7 +83,8 @@ ACR & acronym\\
 ACR & acronym}
 \declaration{Author et al. 2017}
 \acknowledgements{$acknowledgements$}
-
+$else$
+\tableofcontents
 $endif$
 
 \mainmatter
