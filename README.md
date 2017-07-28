@@ -16,7 +16,7 @@ Under the hood, the Reed College LaTeX template (and soon the Reed College Word 
 
 Using **thesisdown** has some prerequisites which are described below. To compile PDF documents using **R**, you are going to need to have LaTeX installed.  It can be downloaded for Windows at <http://http://miktex.org/download> and for Mac at <http://tug.org/mactex/mactex-download.html>.  Follow the instructions to install the necessary packages after downloading the (somewhat large) installer files.  You may need to install a few extra LaTeX packages on your first attempt to knit as well.
 
-### Using thesisdown from Chester's GitHub
+### Using thesisdown from Mikeys's GitHub
 
 To use **thesisdown** from RStudio:
 
