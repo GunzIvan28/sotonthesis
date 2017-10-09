@@ -14,6 +14,8 @@ Under the hood, the Southampton University thesis template is used to ensure tha
 
 Using **sotonthesis** has some prerequisites which are described below. To compile PDF documents using **R**, you are going to need to have LaTeX installed.  It can be downloaded for Windows at <http://http://miktex.org/download> and for Mac at <http://tug.org/mactex/mactex-download.html>.  Follow the instructions to install the necessary packages after downloading the (somewhat large) installer files.  You may need to install a few extra LaTeX packages on your first attempt to knit as well.
 
+If you are installing MikTex on a university computer, you may encounter a problem with "pdflatex". It appears this is resolved by only setting MikTex to be installed for the local account within the installation.
+
 ### Using sotonthesis package:
 
 To use **sotonthesis** from RStudio:
