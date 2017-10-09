@@ -35,3 +35,35 @@ devtools::install_github("mikey-harper/thesisdown")
 ![New R Markdown](thesis_rmd.png)
 
 Note that this will currently only **Knit** if you name the directory `index` as shown above.
+
+
+### Customisation
+The YAML header in the index.Rmd can be used to customise the template
+
+---
+title:
+author:
+supervisor:
+department:
+degree:
+group:
+faculty:
+date:
+knit:
+fontfamily:
+site:
+frontmatter: true 
+output:
+abstract:
+acknowledgements:
+bibliography:
+biblio-style:
+csl:
+lot:
+lof:
+fontsize:
+space_between_paragraphs:
+frontmatter: 
+
+---
+
