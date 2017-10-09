@@ -20,12 +20,13 @@ To use **sotonthesis** from RStudio:
 
 1) Install the latest [RStudio](http://www.rstudio.com/products/rstudio/download/).
 
-2) Install the **bookdown** and **thesisdown** packages: 
+2) Install the **bookdown** and **sotonthesis** packages: 
 
 ```S
 install.packages("devtools")
 devtools::install_github("rstudio/bookdown")
-devtools::install_github("ismayc/thesisdown")
+devtools::install_github("mikey-harper/sotonthesis")
+
 ```
 
 3) Use the **New R Markdown** dialog to select **Thesis**:
@@ -35,3 +36,50 @@ devtools::install_github("ismayc/thesisdown")
 Note that this will currently only **Knit** if you name the directory `index` as shown above.
 
 ### Customising the Template
+
+Once you have downloaded the file, you can customise the template using the parameters within the index.Rmd
+
+```
+---
+title: 'Title'
+author: 'Author'
+supervisor: "Supervisor"
+university: "University"
+department: "Department"
+degree: "Doctor of Philosophy"
+group: "Group"
+faculty: 'Faculty of X'
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+knit: "bookdown::render_book"
+fontfamily: cmss # cmr (standard), cmss (modern) cmtt (typewriter)
+site: bookdown::bookdown_site
+frontmatter: true 
+output:
+  thesisdown::thesis_pdf: default
+#  thesisdown::thesis_gitbook: default
+#  thesisdown::thesis_word: default
+#  thesisdown::thesis_epub: default
+# If you are creating a PDF you'll need to write your preliminary content here or
+# use code similar to line 20 for the files.  If you are producing in a different
+# format than PDF, you can delete or ignore lines 20-31 in this YAML header.
+abstract: |
+# If you'd rather include the preliminary content in files instead of inline
+# like below, use a command like that for the abstract above.  Note that a tab is 
+# needed on the line after the |.
+acknowledgements: |
+  Include Acknowledgements
+bibliography: "bib/thesis.bib"
+biblio-style: apalike
+# Download your specific bibliography database file and refer to it in the line above.
+csl: csl/apa.csl
+# Download your specific csl file and refer to it in the line above.
+lot: true
+lof: true
+fontsize: 11pt
+#space_between_paragraphs: true
+# Delete the # at the beginning of the previous line if you'd like
+# to have a blank new line between each paragraph
+#header-includes:
+#- \usepackage{tikz}
+---
+```
