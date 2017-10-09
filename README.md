@@ -18,7 +18,7 @@ Using **sotonthesis** has some prerequisites which are described below. To compi
 
 To use **sotonthesis** from RStudio:
 
-1) Install the latest [RStudio](http://www.rstudio.com/products/rstudio/download/).
+1) Install the latest [RStudio](http://www.rstudio.com/products/rstudio/download/). Note: if you are at Southampton university, the standard version of R provided on computers is the still version 0.99.473. You can check this in RStudio within "Help-> About RStudio"
 
 2) Install the **bookdown** and **sotonthesis** packages: 
 
