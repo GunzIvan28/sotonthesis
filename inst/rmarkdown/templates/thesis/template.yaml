@@ -1,3 +1,3 @@
 name:  "ThesisSoton"
 description: >
- Template for creating a Thesis at the University of Southampton using R Markdown based on the UoS LaTeX and Word templates and the R bookdown package.
+ Template for creating a Thesis at the University of Southampton using R Markdown based on the LaTeX template and bookdown package.
