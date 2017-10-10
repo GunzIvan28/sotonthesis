@@ -1,6 +1,6 @@
 # sotonthesis
 
-This project was inspired by the [bookdown](http://github.com/rstudio/bookdown) and [thesisdown](http://github.com/ismayc/thesisdown) packages which can be used to create books and reports within RMarkdown. This respository has updated the template and made other alterations to the code to make it suitable for the use with the Southampton University thesis template [here](https://github.com/akdiem/phd_thesis_template).
+This project is a modified version Chester Ismay's [thesisdown](http://github.com/ismayc/thesisdown)  package. This respository has updated the template and made other alterations to the code to make it suitable for the use with the Southampton University thesis template [here](https://github.com/akdiem/phd_thesis_template).
 
 Currently, the PDF and gitbook versions are fully-functional.  The word and epub versions are developmental, have no templates behind them, and are essentially calls to the appropriate functions in bookdown.
 
