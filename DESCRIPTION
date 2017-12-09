@@ -1,7 +1,7 @@
 Package: sotonthesis
 Title: An updated R Markdown thesis template using the bookdown package
 Version: 0.0.2
-Year: 2017
+Date: 2017-12-12
 Authors@R: 
     person("Chester", "Ismay", email = "chester.ismay@gmail.com", role = c("aut", "cre"))
     person("Michael", "Harper", email = "m.harper@outlook.com", role = c("aut", "cre"))
