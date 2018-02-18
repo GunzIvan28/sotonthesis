@@ -6,6 +6,9 @@
 \usage{
 thesis_gitbook(...)
 }
+\arguments{
+\item{...}{additional arguments passed to the bookdown::gitbook function}
+}
 \value{
 A gitbook webpage
 }

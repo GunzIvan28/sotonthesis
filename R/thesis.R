@@ -6,6 +6,8 @@
 #' @export
 #' @param toc A Boolean (TRUE or FALSE) specifying whether table of contents should be created
 #' @param toc_depth A positive integer
+#' @param ... additional arguments passed to the bookdown::pdf_book function
+#'
 #' @return A modified \code{pdf_document} based on the Reed Senior Thesis LaTeX
 #'   template
 #' @examples
@@ -39,6 +41,8 @@ thesis_pdf <- function(toc = TRUE, toc_depth = 3, ...){
 #' This is a function called in output in the YAML of the driver Rmd file
 #' to specify the creation of a webpage version of the thesis.
 #'
+#' @param ... additional arguments passed to the bookdown::gitbook function
+#'
 #' @export
 #' @return A gitbook webpage
 #' @examples
@@ -69,6 +73,8 @@ thesis_gitbook <- function(...){
 #' This is a function called in output in the YAML of the driver Rmd file
 #' to specify the creation of a Microsoft Word version of the thesis.
 #'
+#' @param ... additional arguments passed to the bookdown::word_document2 function
+#'
 #' @export
 #' @return A Word Document based on (hopefully soon, but not currently)
 #' the Reed Senior Thesis Word template
@@ -92,6 +98,8 @@ thesis_word <- function(...){
 #'
 #' This is a function called in output in the YAML of the driver Rmd file
 #' to specify the creation of a epub version of the thesis.
+#'
+#' @param ... additional arguments passed to the bookdown::epub_book function
 #'
 #' @export
 #' @return A ebook version of the thesis

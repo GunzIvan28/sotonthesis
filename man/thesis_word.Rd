@@ -6,6 +6,9 @@
 \usage{
 thesis_word(...)
 }
+\arguments{
+\item{...}{additional arguments passed to the bookdown::word_document2 function}
+}
 \value{
 A Word Document based on (hopefully soon, but not currently)
 the Reed Senior Thesis Word template

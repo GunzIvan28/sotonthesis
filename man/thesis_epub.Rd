@@ -6,6 +6,9 @@
 \usage{
 thesis_epub(...)
 }
+\arguments{
+\item{...}{additional arguments passed to the bookdown::epub_book function}
+}
 \value{
 A ebook version of the thesis
 }

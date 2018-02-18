@@ -10,6 +10,8 @@ thesis_pdf(toc = TRUE, toc_depth = 3, ...)
 \item{toc}{A Boolean (TRUE or FALSE) specifying whether table of contents should be created}
 
 \item{toc_depth}{A positive integer}
+
+\item{...}{additional arguments passed to the bookdown::pdf_book function}
 }
 \value{
 A modified \code{pdf_document} based on the Reed Senior Thesis LaTeX
