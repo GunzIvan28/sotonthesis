@@ -1,8 +1,8 @@
 # sotonthesis
 
 [![Travis-CI Build Status](https://travis-ci.org/mikey-harper/sotonthesis.svg?branch=master)](https://travis-ci.org/mikey-harper/sotonthesis)
-[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
 [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/mikey-harper/sotonthesis?branch=master&svg=true)](https://ci.appveyor.com/project/mikey-harper/sotonthesis)
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
 
 This project is a modified version Chester Ismay's [thesisdown](http://github.com/ismayc/thesisdown)  package. This respository has updated the template and made other alterations to the code to make it suitable for the use with the Southampton University thesis template [here](https://github.com/akdiem/phd_thesis_template).
 
