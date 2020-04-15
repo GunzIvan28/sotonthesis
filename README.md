@@ -2,7 +2,8 @@
 
 [![Travis-CI Build Status](https://travis-ci.org/dr-harper/sotonthesis.svg?branch=master)](https://travis-ci.org/dr-harper/sotonthesis)
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
-[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/dr-harper/sotonthesis?branch=master&svg=true)](https://ci.appveyor.com/project/dr-harper/sotonthesis)
+<img src="https://img.shields.io/github/last-commit/dr-harper/sotonthesis.svg" />
+<img src="https://img.shields.io/github/stars/dr-harper/sotonthesis.svg" />
 
 This project is a modified version Chester Ismay's [thesisdown](http://github.com/ismayc/thesisdown)  package. This respository has updated the template and made other alterations to the code to make it suitable for the use with the Southampton University thesis template [here](https://github.com/akdiem/phd_thesis_template).
 
@@ -24,13 +25,13 @@ If you are installing MikTex on a university computer, you may encounter a probl
 
 To use **sotonthesis** from RStudio:
 
-1) Install the latest [RStudio](http://www.rstudio.com/products/rstudio/download/). Note: if you are at Southampton university, the standard version of R provided on computers is the still version 0.99.473. You can check this in RStudio within "Help-> About RStudio"
-
+1) Install the latest [RStudio](http://www.rstudio.com/products/rstudio/download/).
 2) Install the **bookdown** and **sotonthesis** packages: 
 
-```S
+```
+install.packages("bookdown")
+
 install.packages("devtools")
-devtools::install_github("rstudio/bookdown")
 devtools::install_github("dr-harper/sotonthesis")
 
 ```
